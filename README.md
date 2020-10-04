@@ -40,8 +40,7 @@ Since you probably want the webserver to start on every boot, you might consider
 
 ## Usage
 
-NodeJS will listen on **port 3000** (you can change port in start.js by changing `portnumber` variable), so while in WLAN try to access `http://localhost:3000`
-This should bring up the not-so-pretty web UI.
+NodeJS will listen on **port 3000** (you can change port in start.js by changing `portnumber` variable), so while in WLAN try to access `http://fibro:3000` from your mobile phone. This should bring up the web UI.
 
 
 
