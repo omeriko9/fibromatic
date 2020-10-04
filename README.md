@@ -16,6 +16,8 @@ RPi - Running NodeJS for the web interface, sending commands over UART to Arduin
 Pinout:
 GPIO14 -> Arduino pin 10
 
+(https://github.com/omeriko9/fibromatic/blob/main/connections.png)
+
 I used [Adeept's 5DOF Robotic Arm](https://www.adeept.com/adeept-arduino-compatible-diy-5-dof-robotic-arm-kit-for-arduino-uno-r3-steam-robot-arm-kit-with-arduino-and-processing-code_p0118_s0031.html) but only used 3 out of the 5, that way I could use the additional unused servo pins for serial communication between the Arduino and the RPi Zero.
 
 
