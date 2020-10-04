@@ -5,7 +5,9 @@ Automatic feathering massage for Fibromyalgia patients using Arduino, RPi and a 
 
 ## Overview
 
-Arduino - connected to the robotic arm (3 servos) and to the RPi's UART. 
+Arduino
+*Note: the Arduino (ATMEGA328P) is part of the Robotic Arm kit*
+connected to the 3 servos and to the RPi's UART. 
 Pinout:
 9 - Servo1
 6 - Servo2
