@@ -23,7 +23,7 @@ I used [Adeept's 5DOF Robotic Arm](https://www.adeept.com/adeept-arduino-compati
 ## Installation
 
 ### Arduino 
-
+ 
 **ArduinoCode** Folder - Use Arduino IDE to upload the code. Main sketch file is *main.ino*.
 Note the pin numbers, in case you are using a different product than me.
 
