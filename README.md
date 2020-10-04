@@ -38,9 +38,9 @@ Note the pin numbers, in case you are using a different product than me.
 ### Raspberry Pi
 
 I used headless RPi zero with Raspberry Pi OS. 
-You can pre-configure WiFi SSID & key (by using wpa_supplicant file), and enable SSH in advance. That way you won't need to connect a keyboard and a screen after inserting the SD Card. Google for a guide on how to do it, here is an [example of one](https://core-electronics.com.au/tutorials/raspberry-pi-zerow-headless-wifi-setup.html)
+You can pre-configure WiFi SSID & key (by using wpa_supplicant file), and enable SSH in advance. That way you won't need to connect a keyboard and a screen after inserting the SD Card. Google for a guide on how to do it, here is an [example of one](https://core-electronics.com.au/tutorials/raspberry-pi-zerow-headless-wifi-setup.html).
 
-**firbopi** is the NodeJS root folder. 
+**fibropi** is the NodeJS root folder. 
 Install NodeJS (I used version 14) on the RPi, and run `npm install` on that folder.
 Then you can start the server normally with `node app.js` or use watch to monitor file changes and run it with `npm run watch`.
 
