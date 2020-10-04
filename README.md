@@ -12,10 +12,10 @@ Automatic feathering massage for Fibromyalgia patients using Arduino, RPi and a 
 The Arduino is connected to the 3 servos and to the RPi's UART. 
 
 Pinout:
-9 - Servo1
-6 - Servo2
-5 - Servo3
-10 -> RPi GPIO14
+9 - Servo1  
+6 - Servo2  
+5 - Servo3  
+10 -> RPi GPIO14  
 
 ### RPi 
 
@@ -63,18 +63,12 @@ D* - 0 or more characters of data
 Possible commands are:
 1,2,3 - set angle for servos 1, 2 and 3. Data is the absolute angel. Example: `103110` sets servo1 at angle 110 degrees
 a,b,c - increase/decrease angle for servos 1, 2 and 3. Data is the relative angel. Example: `a03-30` sets servo1 -30 degrees relative to its current state.
-i     - return arm to initial position
-
-p     - stop/start plan 1 (for start, data should be 1. Example of start command: `p011`)
-
-t     - stop/start plan 2 (for start, data should be 1. Example of stop command: `t010`)
-
-m     - Enlarge servo1 (z plane) angle 
-
-n     - Reduce servo1 (z plane) angle
-
-4     - delay between plan's instructions
-
+i     - return arm to initial position  
+p     - stop/start plan 1 (for start, data should be 1. Example of start command: `p011`)  
+t     - stop/start plan 2 (for start, data should be 1. Example of stop command: `t010`)  
+m     - Enlarge servo1 (z plane) angle  
+n     - Reduce servo1 (z plane) angle  
+4     - delay between plan's instructions  
 s     - servo2 (y plane) offset. Offset added to plan's instruction and makes the apparatus higher or lower.
 
 
