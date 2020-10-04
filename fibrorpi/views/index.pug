@@ -1,0 +1,72 @@
+extends layout
+
+block content
+  script(src='/js/noises.js')
+  link(rel='stylesheet', href='/css/spinner.css')
+  .modal.bd-example-modal-lg(data-backdrop='static' data-keyboard='false' tabindex='-1')
+    .modal-dialog.modal-sm
+      .modal-content(style='width: 32px')
+        .ajax-loader
+
+
+  form(actioj="submit")
+    div.containter-fluid(align='center')
+        div.col-md-12.mb-4.mx-auto
+
+          br
+
+          div
+            img(src='img/apple-touch-icon-120x120.png')
+            h1(style='display:inline;margin-left:20px')
+              span.red פ
+              span.orange י
+              span.yellow ב
+              span.green ר
+              span.cyan ו
+              span.sky מ
+              span.blue ט
+              span.indigo י
+              span.violet ק
+
+          div.row.flex-wrap.justify-content-center(style="display:none")
+            input(type="text", id="command")
+            button.btn-success(value='custom', onclick='return act(this.value)') Submit
+
+          h5 מהירות
+
+          div.row.flex-wrap.justify-content-center
+            button.btn.btn-squared-default.btn-primary(value='1', onclick='return act(this.value)') 1
+            button.btn.btn-squared-default.btn-info(value='2', onclick='return act(this.value)') 2
+            button.btn.btn-squared-default.btn-primary(value='3', onclick='return act(this.value)') 3
+            button.btn.btn-squared-default.btn-info(value='4', onclick='return act(this.value)') 4
+
+          h5 הפעלת תוכנית
+
+          div.row.flex-wrap.justify-content-center
+            button.btn.btn-squared-default.btn-green(value='start', onclick='return act(this.value)')
+              p הפעל
+              p תוכנית 1
+            button.btn.btn-squared-default.btn-yellow(value='start2', onclick='return act(this.value)')
+              p הפעל
+              p תוכנית 2
+            button.btn.btn-squared-default.btn-red(value='stop', onclick='return act(this.value)') כבה
+
+          h5 כוונון
+
+          div.row.flex-wrap.justify-content-center
+            button.btn.btn-squared-default.btn-purple(value='up', onclick='return act(this.value)')
+              span.fa.fa-arrow-circle-up.fa-lg(aria-hidden='true')
+            button.btn.btn-squared-default.btn-orange(value='down', onclick='return act(this.value)')
+              span.fa.fa-arrow-circle-down.fa-lg(aria-hidden='true')
+            button.btn.btn-squared-default.btn-default(value='enlarge', onclick='return act(this.value)')
+              span.fa.fa-arrow-circle-left.fa-lg(aria-hidden='true')
+              span(style="font-size:large")
+                p הגדל
+                p טווח
+            button.btn.btn-squared-default.btn-default(value='reduce', onclick='return act(this.value)')
+              span.fa.fa-arrow-circle-right.fa-lg(aria-hidden='true')
+              span(style="font-size:large")
+                p הקטן
+                p טווח
+
+
