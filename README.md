@@ -3,6 +3,8 @@ Automatic feathering massage for Fibromyalgia patients using Arduino, RPi and a 
 
 ![a gif describing the fibromatic in action](https://media0.giphy.com/media/61T89gKzCf5UDsnZFe/giphy.gif)
 
+(See instructable at https://www.instructables.com/Fibromatic/)
+
 ## Overview
 
 ### Arduino
