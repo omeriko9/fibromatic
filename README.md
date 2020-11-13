@@ -58,9 +58,9 @@ The protocol between the RPi and the Arduino is very rudamentary. Data is being 
 
 **C SS D***
 
-C  - 1 character for command
-SS - 2 characters for size of data
-D* - 0 or more characters of data
+C  - 1 character for command  
+SS - 2 characters for size of data  
+D* - 0 or more characters of data  
 
 Possible commands are:
 1,2,3 - set angle for servos 1, 2 and 3. Data is the absolute angel. Example: `103110` sets servo1 at angle 110 degrees
